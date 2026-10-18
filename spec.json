@@ -1,0 +1,50 @@
+{
+    "name":  "meet-notes",
+    "logo":  "🗒️",
+    "exe":  "MeetNotes.exe",
+    "desc":  "Free, open-source meeting recorder and note taker for Windows — local transcription plus LLM summaries. 100 MB portable, offline, MIT.",
+    "topics":  [
+                   "meeting-notes",
+                   "meeting-recorder",
+                   "transcription",
+                   "whisper",
+                   "local-ai",
+                   "summarization",
+                   "ai-tools",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "action-items",
+                   "system-audio",
+                   "markdown-export",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **One-click recording** — captures microphone and system audio together so remote calls are fully captured",
+                     "✅ **Local transcription** — Whisper models turn the recording into timestamped text without a cloud account",
+                     "✅ **LLM summaries** — decisions, topics and open questions extracted by a local model you point it at",
+                     "✅ **Action item list** — who agreed to do what, pulled out as a checklist with timestamps back to the audio",
+                     "✅ **Markdown export** — notes in a format that drops straight into Obsidian or a repo",
+                     "✅ **Live level guard** — warns when mic and system audio are unbalanced before the meeting is ruined",
+                     "✅ **100 MB self-contained exe** — runtime bundled, models download separately, offline after that, MIT"
+                 ],
+    "compare":  [
+                    "| Feature | **meet-notes** | Otter | Teams built-in | Whisper scripts |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Paid tiers | Bundled with plan | Free, OSS |",
+                    "| Open source | **Yes** | No | No | Yes |",
+                    "| Audio stays local | **Yes** | Upload | Cloud | Yes",
+                    "| Local LLM summary | **Yes** | No | Cloud | Scripted",
+                    "| Works for any app\u0027s call | **Yes** | Partial | Teams only | Manual routing",
+                    "| Portable, no install | **Yes, 100 MB** | App or web | Installer | Python env"
+                ],
+    "faqQ":  "how to transcribe and summarize meetings locally without uploading audio?",
+    "faqA":  "Meeting assistants all want the call uploaded to their servers, which many workplaces forbid. meet-notes records both audio streams on the machine, transcribes with local Whisper and summarizes with your own local LLM. It is a 100 MB portable exe, MIT, offline, and works with any meeting app.",
+    "s1":  "Dark meeting view (#121417, amber #FBBF24): recording indicator with dual level meters, live transcript scrolling with speaker labels, elapsed chip reading 43 minutes.",
+    "s2":  "Summary card at session end: three decisions listed, open questions section, action item checklist with five rows and timestamp links.",
+    "s3":  "Export dialog: markdown template picker, split by topic toggle, attachments folder set, toast reading notes saved with 38 transcript anchors."
+}
